@@ -1,0 +1,170 @@
+body {
+    background-color: #181818;
+
+}
+.up {
+    background-color: rgba(180, 10, 10, 0.6);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 6px;
+    width: 50px;
+    border-radius: 4px;
+    position: fixed;
+    right: 22px;
+    bottom: 22px;
+    cursor: pointer;
+    display: none;
+}
+body button a{
+    color: white;
+}
+.navation {
+  
+    position: fixed;
+    z-index: 30;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    padding: 4px;
+}
+
+.navation ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    overflow: hidden;
+    float: left; 
+}
+.userbar{
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 30px;
+}
+.navation ul li {
+    position: relative;
+    display: inline-block;
+}
+
+.navation ul li a {
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: all .5s;
+}
+
+.navation ul li a:hover {
+    color: rgba(180, 10, 10, 0.6);
+
+}
+
+.navation input[type=text] {
+    width: 300px;
+    height: 45px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+    border: 2px solid rgba(180, 10, 10, 0.6);
+    border-radius: 10px;
+    font-size: 16px;
+    align-items: center;
+    outline: none;
+    float: right;
+    margin-top: 3px;
+    margin-right: 5px;
+
+}
+.navation .b {
+    align-items: center;
+    float: right;
+    padding: 10px;
+    margin-top: 3px;
+    margin-right: 50px;
+    background: rgba(180, 10, 10, 0.6);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    height: 45px;
+    color: white;
+    border: 1px solid black;
+    border-left: 3px;
+}
+.navation::after {
+    content: " ";
+    clear: both;
+    display: table;
+}
+.navation #submitLogout{
+    align-items: center;
+    float: right;
+    padding: 10px;
+    margin-top: 3px;
+    margin-right: 40px;
+    background: rgba(180, 10, 10, 0.6);
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 50px;
+    height: 45px;
+    color: white;
+    border: 1px solid black;
+    border-left: 3px;
+}
+
+.container {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+    
+}
+
+.row {
+    overflow: hidden;
+    padding: 5px;
+    margin: 9px;
+
+}
+
+.col-md-4 {
+    height: 300px;
+    width: 170px;
+    float: left;
+    padding: 3px;
+    margin: 5px;
+    margin-left: 4 px;
+}
+.thumbnail {
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.thumbnail img {
+    height: 100%;
+    width: 100%;
+    transition: all .5s;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.thumbnail img:hover {
+
+    transform: scale(2.2);
+}
+
+.caption {
+    height: 18%;
+}
+
+.movie-name {
+    color: white;   
+    font-weight: 700;
+    padding: 2px;
+    margin: 5px;
+}
+

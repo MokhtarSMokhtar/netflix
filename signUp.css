@@ -1,0 +1,154 @@
+
+ body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+	font-family: sans-serif;
+	
+}
+.container{
+    width: 1129px;
+    margin:0px auto;
+    color: white;
+}   
+.navbar
+{
+    height: 1000px;
+    width: 100%;
+    margin:0px;
+	padding: 0px auto;
+    color: white;
+    background-image: url("imgs/bg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	box-shadow: inset 100px 150px 200px #000, inset -100px -150px 200px #000;
+}
+.top img{
+    width: 200px;
+	margin: 20px 5px 5px 0px;
+	font-weight: bold;
+}
+.top a{
+    float: right;
+    background-color: #e50914;
+    padding: 6px 4px 6px 9px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+	width: 90px;
+    margin: 53px 5px 5px 0px;
+    border-radius: 5px;
+}
+.content{
+	padding: 50px 20px;
+}
+.footer{
+	width: 100%;
+	height: 250px;
+	margin-top: 200px;
+	color: #757575;
+	background-color: black;
+	font-size: 18px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #757575;
+    font-family: sans-serif;
+	display: block;
+	margin-top: 60px;
+}
+.footer .f{
+  width: 150px;
+  height: 150px;
+  float: left;
+  margin:20px 40px 10px 0;
+}
+.footer .f ul{
+    list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.footer .f ul li{
+    font-weight: normal;
+	padding: 8px 0px;
+	color: #757575;
+}
+.footer select{
+	padding: 15px 50px 15px 35px;
+	background-color: black;
+	color: #aaa;
+	border: 1px solid #333333;
+	margin-top: 25px;
+	font-size: 18px;
+    text-indent: 0px;
+    /* padding-right: 50px; */
+}
+
+.footer p{
+	font-size: 15px;
+	margin-top: 50px;
+}
+
+#signup,#login{
+	width:  250px;
+	height: 60px;
+	padding: 10px;
+	font-size: 17px;
+	margin-top:40px;
+	background-color: #c4171f;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	font-weight: bold;
+	margin-bottom: 40px;
+}
+
+.lbl-signup{
+ 
+ margin-top:50;
+ color: rgb(225, 23, 23);
+}
+
+.inp-signup{
+    background-color: white;
+    border: 1px solid #999;
+    border-radius: 15px;
+    margin: 5px 0;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: bold;
+    height: 50px;
+ 	margin-bottom: 15px;
+}
+
+ .us{
+width: 450px;
+text-align: center;
+background-color: rgba(30, 41, 51, 0.7);
+border-radius: 7px;
+margin: 0px auto;
+margin-top: 160px;
+box-shadow: inset 7px 7px 250px #000, inset -7px -7px 250px #000;
+height: 100%;
+padding: 0px 0px 40px 0px;
+ }
+
+.us img {
+ width: 120px;
+ height: 120px;
+ margin-top: -60px;
+ margin-bottom: 30px;
+ border: 1px solid #999;
+ border-radius: 60px;
+}
+
+.succ-reg{
+	color: green;
+	font-size: 25px;
+	font-weight: bold;
+	display: none;
+}
+

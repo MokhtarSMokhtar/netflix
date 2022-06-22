@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="icon" href="imgs/netflix.ico" />
+</head>
+
+<body>
+	<div class="navbar">
+		<div class="header2">
+			<div class="container">
+				<div class="top">
+					<img src="imgs/logo.png" />
+					<a href="signUp.html">Sign Up</a>
+				</div>
+			</div>
+		</div>
+		<div class="content login-bg">
+			<div class="container">
+				<div class="login-form">
+					<div class="lbl-login">Sign In</div>
+
+					<form class="inp-login" method="get" action="Movies\Movies.html" id="form">
+						<input type="text" name="email" class="email" placeholder="Email" id="email">
+						<span id="valdite_email">
+						</span>
+						<input type="password" name="password" class="password" placeholder="Password" id="password">
+						<span id="valdite_pass">
+						</span>
+
+						<button type="submit" name="login" class="btn-signin" id="submit"> login in</button>
+					</form>
+					<div class="help">
+
+						<input type="checkbox" value="show" id="showpassword">show password
+						<br>
+						<input type="checkbox" value="rememberMe" id="rememberMe">Remember me
+						<a href="https://www.netflix.com/eg-en/LoginHelp">Need help?</a>
+					</div>
+					<div class="lg-face">
+						<img src="imgs/fb-login.png" height="18px" />
+						<a href="https://www.facebook.com">Login with Facebook</a>
+					</div>
+					<div class="net">
+						<label>New to Netflix?</label>
+						<a class="a1" href="signUp.html">Sign up now</a>
+						<p>This page is protected by Google reCAPTCHA to ensure you're not a bot.
+							 <button class="a2" onclick="myFunction()">Learn More</button></p>
+							 <div id="hidden">The information collected by Google reCAPTCHA 
+								is subject to the Google Privacy Policy and Terms of Service,
+								 and is used for providing, maintaining, and improving the 
+								 reCAPTCHA service and for general security purposes.</div>
+
+					</div>
+				</div>
+			</div>
+		</div>`
+	</div>
+	<script src="loginjs.js"></script>
+</body>
+
+</html>
